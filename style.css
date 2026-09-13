@@ -42,24 +42,10 @@ body {
   background-color: var(--stone-100);
 }
 
-/* main {
+main {
   padding-block: 8rem;
   padding-inline: 22rem;
 }
-
-/* Tablet: 768px and below */
-/* main {
-@media (max-width: 48rem) {
-    padding-inline: 4.75rem;
-  }
-} */
-
-/* Mobile: 375px and below */
-/* @media (max-width: 23.4375rem) {
-  main {
-    padding: 0;
-  }
-} */
 
 /* Card Styling */
 
@@ -237,4 +223,37 @@ body {
   color: var(--brown-800);
   padding-right: 2rem;
   max-width: 18rem;
+}
+
+/* Media */
+
+/* Tablet: 768px and below */
+main {
+  @media (max-width: 48rem) {
+    padding-inline: 4.75rem;
+  }
+}
+
+/* Mobile: 440px and below */
+@media (max-width: 27.5rem) {
+  main {
+    padding: 0;
+  }
+
+  .recipe-card img {
+    border-radius: 0;
+  }
+
+  .recipe-card {
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .recipe-card>*:not(img) {
+    padding-inline: 2rem;
+  }
+
+  .recipe-card .title .name {
+    font-size: 2rem;
+  }
 }
