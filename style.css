@@ -35,6 +35,7 @@
 }
 
 body {
+  font-family: "Outfit";
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -81,7 +82,6 @@ main {
 }
 
 .recipe-card .title .description {
-  font-family: "Outfit";
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -104,7 +104,6 @@ main {
 }
 
 .list li {
-  font-family: "Outfit";
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -121,6 +120,10 @@ main {
   margin-bottom: var(--sections-margin);
 }
 
+.recipe-card li span {
+  font-weight: bold;
+}
+
 /* Preparation Section */
 
 .recipe-card .preparation {
@@ -132,7 +135,6 @@ main {
 }
 
 .recipe-card .preparation h2 {
-  font-family: "Outfit";
   font-weight: 600;
   font-size: 1.25rem;
   color: var(--rose-800);
@@ -141,10 +143,6 @@ main {
 
 .recipe-card .preparation ul {
   margin-left: 0.5rem;
-}
-
-.recipe-card .preparation li span {
-  font-weight: bold;
 }
 
 .recipe-card .preparation li::marker {
@@ -180,7 +178,6 @@ main {
 /* Nutrition Section */
 
 .recipe-card .nutrition .description {
-  font-family: "Outfit";
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -205,7 +202,6 @@ main {
 
 .recipe-card .nutrition table th {
   padding-left: 2rem;
-  font-family: "Outfit";
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -218,7 +214,6 @@ main {
 }
 
 .recipe-card .nutrition table td {
-  font-family: "Outfit";
   font-size: 1rem;
   font-weight: bold;
   line-height: 1.5;
