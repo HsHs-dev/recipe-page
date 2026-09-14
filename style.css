@@ -229,13 +229,6 @@ main {
 
 /* Media */
 
-/* Tablet: 768px and below */
-main {
-  @media (max-width: 48rem) {
-    padding-inline: 4.75rem;
-  }
-}
-
 /* Mobile: 440px and below */
 @media (max-width: 27.5rem) {
   main {
