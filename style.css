@@ -44,7 +44,7 @@ body {
 
 main {
   padding-block: 8rem;
-  padding-inline: 22rem;
+  padding-inline: clamp(1.5rem, 5vw, 22rem);
 }
 
 /* Card Styling */
@@ -79,7 +79,6 @@ main {
   color: var(--stone-900);
   margin-bottom: 1.5rem;
 }
-
 
 .recipe-card .title .description {
   font-family: "Outfit";
@@ -127,9 +126,12 @@ main {
 .recipe-card .preparation {
   padding-left: 1.5rem;
   margin-bottom: var(--sections-margin);
+  background-color: var(--rose-50);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
 }
 
-.recipe-card .preparation p {
+.recipe-card .preparation h2 {
   font-family: "Outfit";
   font-weight: 600;
   font-size: 1.25rem;
@@ -255,5 +257,9 @@ main {
 
   .recipe-card .title .name {
     font-size: 2rem;
+  }
+
+  .recipe-card .nutrition {
+    padding-bottom: 2.5rem;
   }
 }
