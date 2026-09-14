@@ -14,8 +14,8 @@ A solution to the [Recipe Page](https://www.frontendmentor.io/learning-paths/get
 
 ## Built with
 
-- Semantic HTML5
-- CSS custom properties
+- Semantic HTML5 (`section, ul, and ol`)
+- CSS custom properties (`list-style-position`)
 - Flexbox
 - Mobile-first workflow
 
