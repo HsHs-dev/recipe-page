@@ -4,7 +4,7 @@
 
 A solution to the [Recipe Page](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3d02/start) challenge on Frontend Mentor. Built with plain HTML and CSS — no frameworks.
 
-**Live Site:** https://hshs-dev.github.io/social-links-profile/
+**Live Site:** https://hshs-dev.github.io/recipe-page/
 
 ## Screenshot
 
